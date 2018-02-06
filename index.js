@@ -1,4 +1,4 @@
-// We use a Node plugin called Express to act as a web server
+
 var express = require('express');
 var https = require('https');
 var app = express();
