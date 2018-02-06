@@ -34,6 +34,7 @@ setInterval(function() {
 
 
 
+app.set('port', (process.env.PORT || 5000));
 
 // Required to allow access to the service across different domains
 app.use(function(req, res, next) {
@@ -67,11 +68,6 @@ app.get('/add', function(req, res, next) {
 	res.send({'result': convID});
 });
 
-
-// Listen on port 5000
-app.listen("5000", function () {
-  console.log('Example app listening on port 5000!')
-});
 
 
 
