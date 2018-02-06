@@ -129,27 +129,27 @@ function markConv(){
 		intents: [ // Last consumer message identified intents
 		{
 			id: 'Level1',
-			name: 'primo',
+			name: Level1,
 			confidenceScore: 1
 		},
 		{
 			id: 'Level2',
-			name: 'secondo',
+			name: Level2,
 			confidenceScore: 1
 		},
 		{
 			id: 'Level3',
-			name: 'terzo',
+			name: Level3,
 			confidenceScore: 1
 		},
 		{
 			id: 'yesno',
-			name: 'yes',
+			name: yesno,
 			confidenceScore: 1
 		},
 		{
 			id: 'comments',
-			name: 'ciao',
+			name: comments,
 			confidenceScore: 1
 		}]
 	}];
