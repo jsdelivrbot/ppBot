@@ -29,7 +29,7 @@ var skill = "321803613";
 
 
 var app = express();
-
+app.listen();
 app.set('port', (process.env.PORT || 5000));
 
 // Required to allow access to the service across different domains
