@@ -1,7 +1,7 @@
 {
-  "name": "BrainBot",
+  "name": "ppBot",
   "version": "1.0.0",
-  "description": "test",
+  "description": "POC",
   "engines": {
     "node": "6.11.3",
     "npm": "5.4.2"
@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "node-agent-sdk": "^0.2.18",
-    "prompt-sync": "^4.1.5",
-    "watson-developer-cloud": "^2.39.0",
-    "express": "^3.10.10"
+    "express": "^3.10.10",
+    "request": "^3.10.10",
+    "https": "^3.10.10"
   },
   "repository": {
     "type": "git",
