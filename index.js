@@ -44,8 +44,8 @@ app.use(function(req, res, next) {
 });
 
 
-app.set('views', __dirname + '/views');
-app.set('view engine', 'ejs');
+// app.set('views', __dirname + '/views');
+// app.set('view engine', 'ejs');
 
 
 // If the user provides the URL "..../add"
