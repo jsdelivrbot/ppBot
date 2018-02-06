@@ -1,7 +1,6 @@
 
 var express = require('express');
 var https = require('https');
-var app = express();
 var request = require('request');
 const Agent = require('node-agent-sdk').Agent;
 var botAgent = new Agent({
@@ -28,11 +27,9 @@ var skill = "321803613";
 
 
 
-setInterval(function() {
-    https.get("https://paddypowerbot.herokuapp.com/");
-}, 600000); // every 5 minutes (300000) every 10 minutes (600000)
 
 
+var app = express();
 
 app.set('port', (process.env.PORT || 5000));
 
@@ -70,6 +67,9 @@ app.get('/add', function(req, res, next) {
 
 
 
+setInterval(function() {
+    https.get("https://paddypowerbot.herokuapp.com/");
+}, 600000); // every 5 minutes (300000) every 10 minutes (600000)
 
 
 
