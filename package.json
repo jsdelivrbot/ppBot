@@ -12,8 +12,6 @@
   },
   "dependencies": {
     "node-agent-sdk": "^0.2.18",
-    "body-parser": "^1.15.1",
-    "ejs": "2.4.1",
     "express": "4.13.3"
   },
   "repository": {
