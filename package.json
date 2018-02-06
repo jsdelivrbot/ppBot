@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "node-agent-sdk": "^0.2.18",
-    "express": "^3.10.10",
-    "request": "^3.10.10",
-    "https": "^3.10.10"
+    "body-parser": "^1.15.1",
+    "ejs": "2.4.1",
+    "express": "4.13.3"
   },
   "repository": {
     "type": "git",
