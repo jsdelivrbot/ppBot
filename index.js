@@ -29,7 +29,7 @@ var skill = "321803613";
 
 
 setInterval(function() {
-    https.get("https://lp-brainbot.herokuapp.com/");
+    https.get("https://paddypowerbot.herokuapp.com/");
 }, 10000); // every 5 minutes (300000) every 10 minutes (600000)
 
 
