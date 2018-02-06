@@ -1,7 +1,6 @@
 var prompt = require('prompt-sync')();
 var MyCoolAgent = require('./MyCoolAgent');
-var message = "text";
-var greenlight = 1;
+
 
 
 var express = require('express');
