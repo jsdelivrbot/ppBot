@@ -122,7 +122,7 @@ function markConv(){
 
 	const metadata = [{
 		type: 'BotResponse', // Bot context information about the last consumer message
-		externalConversationId: 'conversation_id',
+		externalConversationId: convID,
 		businessCases: [
 			'RightNow_Categorization' // identified capability
 		],
